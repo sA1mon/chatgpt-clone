@@ -3,12 +3,12 @@ I am very busy at the moment so I would be very thankful for contributions and P
 
 ## To do
 - [x] Double confirm when deleting conversation
-- [ ] loading / exporting a conversation
 - [x] remember user preferences
-- [ ] theme changer
+- [x] theme changer
+- [ ] loading / exporting a conversation
 - [ ] speech output and input (elevenlabs; ex: https://github.com/cogentapps/chat-with-gpt)
 - [ ] load files, ex: https://github.com/mayooear/gpt4-pdf-chatbot-langchain
-- [ ] better documentation and cross-platfotm (docker for ex)
+- [ ] better documentation
 - [ ] use react / faster backend language ? (newbies may be more confused and discouraged to use it)
  
 # ChatGPT Clone
@@ -43,6 +43,10 @@ python -m venv venv
 3.  Activate the virtual environment by running the following command:
 ```
 source venv/bin/activate
+```
+If you are using fish shell, the command will be slightly different:
+```
+source venv/bin/activate.fish
 ```
 If you're on Windows, the command will be slightly different:
 ```
